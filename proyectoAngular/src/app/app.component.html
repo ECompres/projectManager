@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+  <ul>
+    <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['active']">Sobre mi</a></li>
+    <li><a [routerLink]="['/proyectos']" [routerLinkActive]="['active']">Proyectos</a></li>
+    <li id="logo"><a [routerLink]="['/sobre-mi']">EC</a></li>
+    <li><a [routerLink]="['/crear']" [routerLinkActive]="['active']">Crear proyectos</a></li>
+    <li><a [routerLink]="['/contacto']" [routerLinkActive]="['active']">Contacto</a></li>
+  </ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+<footer>
+  Elías Comprés, Master Js. &copy;
+</footer>
